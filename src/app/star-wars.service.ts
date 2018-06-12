@@ -30,4 +30,9 @@ export class StarWarsService {
     this.characters[pos].side = charInfo.side;
     this.logService.writeLog('Side changed');
   }
+
+  addCharacter(name, side) {
+    const newChar = { name, side };
+    this.characters.push(newChar);
+  }
 }
