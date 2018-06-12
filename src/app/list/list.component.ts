@@ -13,7 +13,7 @@ export class ListComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSideAssigned(charInfo) {
-    this.sideAssigned.emit(charInfo);
-  }
+  // onSideAssigned(charInfo) {
+  //   this.sideAssigned.emit(charInfo);
+  // }
 }
